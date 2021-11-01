@@ -1,0 +1,45 @@
+body{
+    background-color: #dbedf0;
+    font-family: 'Poppins', sans-serif;
+    size: 2rem;
+}
+main{
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+}
+main .row .col,footer, .col-sm-4, .titulo{
+    background: linear-gradient(315deg, #eafeff28, #c5d5d8);
+    box-shadow: -20px -20px 60px #bac9cc,
+                20px 20px 60px #fcffff;
+    border-radius: 50px;
+}
+main .row .col h1, main .row .col p, .col {
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: px;
+}
+main h1{
+    font-family: 'Fascinate', cursive;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+label{
+    padding-right: 5px;
+}
+input, .form-control, #nombre{
+    border-radius: 10px;
+    border-color: #c5d5d8;
+    background: linear-gradient(315deg, #eafeff81, #c5d5d8);
+    box-shadow: -20px -20px 60px #bac9ccc5,
+                20px 20px 60px #fcffff;
+}
+footer .col{
+    justify-content: end;
+    text-align: end;
+    align-items: flex-end;
+
+}
